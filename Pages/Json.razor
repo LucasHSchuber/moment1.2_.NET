@@ -1,0 +1,51 @@
+﻿@page "/Json"
+@inject HttpClient Http
+
+<PageTitle>Json</PageTitle>
+
+<h1>Json</h1>
+
+<h4>My courses:</h4>
+
+@if (courses == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Course name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in courses)
+            {
+                <tr>
+                    <td>@course.code</td>
+                    <td>@course.name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Courses[]? courses;
+
+    protected override async Task OnInitializedAsync()
+    {
+        courses = await Http.GetFromJsonAsync<Courses[]>("sample-data/courses.json");
+    }
+
+    public class Courses
+    {
+        public string code { get; set; }
+
+        public string name { get; set; }
+
+
+    }
+}

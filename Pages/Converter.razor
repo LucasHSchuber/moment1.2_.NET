@@ -1,0 +1,45 @@
+﻿@page "/converter"
+
+<PageTitle>Converter</PageTitle>
+
+<h1>Converter</h1>
+
+<h4>Meter -> Feet</h4>
+<label for="meter">Meter:</label>
+<input type="number" id="meter" name="meter" @bind="m" />
+
+<button class="btn btn-primary" @onclick="calcFeet">Convert to feet</button>
+
+<p>Feet: @feet.ToString("F2")</p>
+
+@code {
+    private double m = 0;
+    private double feet;
+
+    private void calcFeet()
+    {
+        feet = m * 3.280839895;
+    }
+
+}
+
+
+<h4>Km/h -> m/h</h4>
+<label for="speed">Kilometer per hour:</label>
+<input type="number" id="speed" name="speed" @bind="kmh" />
+
+<button class="btn btn-primary" @onclick="calcMph">Convert to miles per hour</button>
+
+<p>Miles per hour: @mph.ToString("F0")</p>
+
+@code {
+    private double kmh = 0;
+    private double mph;
+
+    private void calcMph()
+    {
+        mph = kmh * 0.62137;
+    }
+
+}
+

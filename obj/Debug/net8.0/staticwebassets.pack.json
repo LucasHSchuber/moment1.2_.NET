@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/obj/Debug/net8.0/compressed/3x2urex8wt.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/obj/Debug/net8.0/scopedcss/bundle/Moment1.2-blazor.styles.css",
+      "PackagePath": "staticwebassets/Moment1.2-blazor.styles.css"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/obj/Debug/net8.0/service-worker-assets.js",
+      "PackagePath": "staticwebassets/service-worker-assets.js"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/obj/Debug/net8.0/service-worker/service-worker.published.js",
+      "PackagePath": "staticwebassets/service-worker.js"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/icon-512.png",
+      "PackagePath": "staticwebassets/icon-512.png"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/manifest.webmanifest",
+      "PackagePath": "staticwebassets/manifest.webmanifest"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/sample-data/courses.json",
+      "PackagePath": "staticwebassets/sample-data/courses.json"
+    },
+    {
+      "Id": "/Users/lucash.schuber/Desktop/NET/Moment1.2-blazor/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Moment1.2-blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Moment1.2-blazor.props",
+      "PackagePath": "build\\Moment1.2-blazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Moment1.2-blazor.props",
+      "PackagePath": "buildMultiTargeting\\Moment1.2-blazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Moment1.2-blazor.props",
+      "PackagePath": "buildTransitive\\Moment1.2-blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

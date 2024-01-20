@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Webbutveckling I",
+        "code": "DT057G"
+    },
+    {
+        "name": "Webbutveckling II",
+        "code": "DT173G"
+    },
+    {
+        "name": "Fullstackutveckling med ramverk",
+        "code": "DT071G"
+    },
+    {
+        "name": "Programmering i C#.NET",
+        "code": "DT193G"
+    },
+    {
+        "name": "Databaser",
+        "code": "DT003G"
+    }
+]
