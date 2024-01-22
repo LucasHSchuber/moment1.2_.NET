@@ -33,6 +33,7 @@ else
 }
 
 @code {
+    // Deklaration av en array för att lagra kurser
     private Courses[]? courses;
 
     protected override async Task OnInitializedAsync()
@@ -40,6 +41,7 @@ else
         courses = await Http.GetFromJsonAsync<Courses[]>("sample-data/courses.json");
     }
 
+    // Klass - representerar en kurs med kod och namn
     public class Courses
     {
         public string code { get; set; }
